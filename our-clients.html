@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Our Clients | Layne's Shipping Services Limited</title>
+    <meta
+      name="description"
+      content="Learn how Layne's Shipping Services Limited supports its clients and principals."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="container nav-wrap">
+        <a href="index.html" class="brand" aria-label="Layne's Shipping Services home">
+          <img src="small-logo-cropped.png" alt="" class="brand-logo" />
+          <span>Layne's Shipping Services Limited</span>
+        </a>
+        <button class="nav-toggle" aria-label="Open menu" aria-expanded="false">
+          <span></span><span></span><span></span>
+        </button>
+        <nav class="site-nav" aria-label="Main navigation">
+          <a href="index.html">Home</a>
+          <a href="services.html">Services</a>
+          <a href="shipping-info.html">Shipping Info</a>
+          <div class="nav-dropdown">
+            <a href="about.html" aria-current="page">About</a>
+            <div class="nav-dropdown-menu">
+              <a href="company-profile.html">Company Profile</a>
+              <a href="our-team.html">Our Team</a>
+              <a href="our-clients.html" aria-current="page">Our Clients</a>
+            </div>
+          </div>
+          <a href="contact.html">Contact</a>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <section class="page-title">
+        <div class="container">
+          <p class="eyebrow">About us</p>
+          <h1>Our Clients</h1>
+          <p class="lead">
+            We provide dependable, cost-effective logistics support to the principals and customers we represent.
+          </p>
+        </div>
+      </section>
+
+      <section class="clients-showcase" aria-labelledby="clients-heading">
+        <div class="container clients-showcase-content">
+          <span class="clients-badge">Our Clients</span>
+          <h2 id="clients-heading">Trusted by our clients</h2>
+          <div class="clients-carousel" data-clients-carousel aria-label="Client slideshow">
+            <div class="clients-viewport">
+              <ul class="clients-track">
+                <li class="client-slide">
+                  <article class="client-card">
+                    <img class="client-logo" src="fedex-logo.svg" alt="FedEx logo" />
+                    <span>Federal Express Limited (Grenada)</span>
+                  </article>
+                </li>
+                <li class="client-slide">
+                  <article class="client-card">
+                    <img class="client-logo" src="caribbean%20bottlers%20logo.png" alt="Caribbean Bottlers logo" />
+                    <span>Caribbean Bottlers Limitted. (Trinidad and Tobago)</span>
+                  </article>
+                </li>
+                <li class="client-slide"><article class="client-card">Team 1 Tactical Solutions Ltd</article></li>
+                <li class="client-slide">
+                  <article class="client-card">
+                    <img class="client-logo" src="Quality%20Commercial%20Interiors%20logo.jpg" alt="Quality Commercial Interiors logo" />
+                    <span>Quality Commercial Interiors Limitted</span>
+                  </article>
+                </li>
+                <li class="client-slide">
+                  <article class="client-card">
+                    <img class="client-logo client-logo-stridon" src="Stridon%20Shoe%20Logo.jpg" alt="Stridon Shoes logo" />
+                    <span>Stridon Shoes Stores Limitted</span>
+                  </article>
+                </li>
+                <li class="client-slide">
+                  <article class="client-card">
+                    <img class="client-logo" src="Ensphere%20Events%20logo.png" alt="Ensphere Events logo" />
+                    <span>Ensphere Events Limitted</span>
+                  </article>
+                </li>
+                <li class="client-slide">
+                  <article class="client-card">
+                    <img class="client-logo" src="New%20Tech%20Electronics%20logo.jpg" alt="New-Tech Electronics logo" />
+                    <span>New-Tech Electronics</span>
+                  </article>
+                </li>
+                <li class="client-slide">
+                  <article class="client-card">
+                    <img class="client-logo" src="Bredero%20Shaw%20Middle%20East%20Limited%20logo.png" alt="Bredero Shaw logo" />
+                    <span>Bredero Shaw Middle East Limited</span>
+                  </article>
+                </li>
+              </ul>
+            </div>
+            <div class="clients-carousel-controls">
+              <button type="button" data-clients-prev aria-label="Previous clients">Previous</button>
+              <button type="button" data-clients-next aria-label="Next clients">Next</button>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer-grid">
+        <div>
+          <a href="index.html" class="brand footer-brand" aria-label="Layne's Shipping Services home">
+            <img src="layne-shipping-logo-cropped.png" alt="" class="brand-logo" />
+            <span>Layne's Shipping Services Limited</span>
+          </a>
+          <p>Full-service logistics support in Trinidad and Tobago.</p>
+        </div>
+        <div class="footer-cta">
+          <p class="eyebrow">Find us at</p>
+          <p>1st Floor, Victoria Suites, 14-17 Park Street, Port of Spain, Trinidad and Tobago</p>
+          <a class="text-link" href="contact.html">View contact details <span aria-hidden="true">→</span></a>
+        </div>
+      </div>
+      <div class="container footer-bottom">
+        <span>© <span id="year"></span> Layne's Shipping Services Limited</span>
+        <div class="footer-links">
+          <a href="services.html">Services</a>
+          <a href="shipping-info.html">Shipping Info</a>
+          <a href="about.html">About</a>
+          <a href="contact.html">Contact</a>
+        </div>
+      </div>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
