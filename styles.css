@@ -963,7 +963,38 @@ p {
   margin: 0;
   padding: 1.7rem;
   border-radius: 1.3rem;
-  background: #ffffff;
+  background: linear-gradient(135deg, #eaf9fb, #fff4d8);
+}
+
+.team-profile-feature {
+  background: linear-gradient(135deg, #eaf9fb, #fff4d8);
+}
+
+.richard-profile-card {
+  grid-column: 1 / -1;
+}
+
+.richard-profile-layout {
+  display: grid;
+  grid-template-columns: minmax(150px, 210px) minmax(0, 1fr);
+  align-items: center;
+  gap: 1.7rem;
+}
+
+.team-profile-photo {
+  width: 100%;
+  aspect-ratio: 3 / 4;
+  object-fit: cover;
+  object-position: center top;
+  border: 3px solid rgba(255, 255, 255, 0.8);
+  border-radius: 1rem;
+  box-shadow: 0 12px 28px rgba(34, 73, 91, 0.16);
+}
+
+.team-profile-feature .team-profile-photo {
+  align-self: start;
+  border-color: rgba(18, 169, 160, 0.38);
+  box-shadow: 0 12px 28px rgba(8, 127, 189, 0.2);
 }
 
 .team-contact-card h3 {
@@ -1110,8 +1141,13 @@ p {
   .purpose-grid,
   .contact-layout,
   .team-contact-grid,
+  .richard-profile-layout,
   .info-grid {
     grid-template-columns: 1fr;
+  }
+
+  .team-profile-photo {
+    width: min(210px, 65%);
   }
 
   .hero-grid,
