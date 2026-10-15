@@ -963,11 +963,23 @@ p {
   margin: 0;
   padding: 1.7rem;
   border-radius: 1.3rem;
-  background: linear-gradient(135deg, #eaf9fb, #fff4d8);
 }
 
-.team-profile-feature {
-  background: linear-gradient(135deg, #eaf9fb, #fff4d8);
+.team-contact-grid .vision-card,
+.team-contact-grid .overview-card {
+  margin-top: 0;
+}
+
+.team-contact-grid .team-contact-card:nth-child(3n + 1) {
+  background: linear-gradient(135deg, #ffffff 15%, #fff3d1 100%);
+}
+
+.team-contact-grid .team-contact-card:nth-child(3n + 2) {
+  background: linear-gradient(135deg, #e7f9f7 15%, #eaf5ff 100%);
+}
+
+.team-contact-grid .team-contact-card:nth-child(3n + 3) {
+  background: linear-gradient(135deg, #fff0dc 15%, #ffe6c5 100%);
 }
 
 .richard-profile-card {
