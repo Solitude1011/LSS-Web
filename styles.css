@@ -1084,6 +1084,11 @@ p {
   line-height: 1.85;
 }
 
+.team-contact-card p:not(.team-contact-name) {
+  font-size: 0.88rem;
+  line-height: 1.6;
+}
+
 .intro-card p:last-child {
   margin-bottom: 0;
 }
