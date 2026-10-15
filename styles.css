@@ -977,8 +977,9 @@ p {
 .richard-profile-layout {
   display: grid;
   grid-template-columns: minmax(150px, 210px) minmax(0, 1fr);
-  align-items: center;
+  align-items: start;
   gap: 1.7rem;
+  margin-top: 0;
 }
 
 .team-profile-photo {
@@ -1251,4 +1252,7 @@ p {
   .card-two {
     left: 0.25rem;
   }
+
+
+
 }
